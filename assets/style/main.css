@@ -61,8 +61,8 @@ li {
 }
 
 @media (min-width: 780px) {
-.button {
-    border-radius: 2.375rem;
+    .button {
+        border-radius: 2.375rem;
     }
 }
 
@@ -77,12 +77,12 @@ li {
 }
 
 @media (min-width: 780px) {
-.button-white {
-    color: #fff;
-    width: 17.625rem;
-    height: 3.8125rem;
-    background: linear-gradient(to right, #0271E0, #53A2F0);
-    border-radius: 1.9375rem;
+    .button-white {
+        color: #fff;
+        width: 17.625rem;
+        height: 3.8125rem;
+        background: linear-gradient(to right, #0271E0, #53A2F0);
+        border-radius: 1.9375rem;
     }
 }
 
@@ -94,10 +94,10 @@ li {
 }
 
 @media (min-width: 780px) {
-.button-green {
-    width: 21.25rem;
-    height: 4.6875rem;
-    font-size: 1.5rem;
+    .button-green {
+        width: 21.25rem;
+        height: 4.6875rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -109,10 +109,10 @@ li {
 }
 
 @media (min-width: 780px) {
-.button-orange {
-    width: 21.25rem;
-    height: 4.6875rem;
-    font-size: 1.5rem;
+    .button-orange {
+        width: 21.25rem;
+        height: 4.6875rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -124,26 +124,36 @@ li {
 }
 
 @media (min-width: 780px) {
-.button-lightblue {
-    width: 21.25rem;
-    height: 4.6875rem;
-    font-size: 1.5rem;
+    .button-lightblue {
+        width: 21.25rem;
+        height: 4.6875rem;
+        font-size: 1.5rem;
     }
 }
 
 .button-blue {
     width: 19.0625rem;
-    height:4.3rem;
+    height: 4.3rem;
     font-size: 1.25rem;
-    border-radius:2.3rem;
+    border-radius: 2.3rem;
     background: linear-gradient(to right, #0271E0, #53A2F0);
-    color: #fff;}
+    color: #fff;
+}
 
 @media (min-width: 780px) {
-.button-blue {
-    width: 22.5rem;
-    height: 4.6875rem;
+    .button-blue {
+        width: 22.5rem;
+        height: 4.6875rem;
     }
+}
+
+.section-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4rem;
+    padding-left: 0.1rem;
+    padding-bottom: 1.25rem;
 }
 
 .section-bottom {
@@ -159,7 +169,7 @@ li {
 }
 
 .section-bottom-text {
-    padding-bottom:0.55rem;
+    padding-bottom: 0.55rem;
 }
 
 /* カルーセルのスタイル */
@@ -206,14 +216,14 @@ li {
 .header-logo {
     display: flex;
     width: 15rem;
-    padding-top:0.5rem;
+    padding-top: 0.5rem;
     padding-left: 0.9rem;
 }
 
 @media (min-width: 780px) {
     .header-logo {
         position: absolute;
-        left:20%;
+        left: 20%;
     }
 }
 
@@ -247,7 +257,7 @@ li {
 
 .hamburger-button i {
     color: #fff;
-    line-height:0.95;
+    line-height: 0.95;
     font-size: 2.6rem;
 }
 
@@ -276,8 +286,8 @@ li {
         transition: none;
         opacity: 1;
         visibility: visible;
-        display:flex;
-        flex-direction:row;
+        display: flex;
+        flex-direction: row;
         background-color: transparent;
     }
 }
@@ -338,16 +348,16 @@ li {
     text-align: center;
     font-size: 1.125rem;
     color: #fff;
-    line-height:1.5;
+    line-height: 1.5;
     padding-bottom: 1.3rem;
 }
 
-.hamburger-nav-first li:nth-child(3) a{
+.hamburger-nav-first li:nth-child(3) a {
     letter-spacing: 0.15em;
 }
 
 @media (min-width: 780px) {
-    .hamburger-nav-first li:nth-child(-n+3) a{
+    .hamburger-nav-first li:nth-child(-n+3) a {
         font-size: 1.25rem;
         font-weight: bold;
         color: #333;
@@ -366,7 +376,7 @@ li {
 .cover-item img {
     width: 100%;
     margin-top: 4.4rem;
-    margin-left:-4%;
+    margin-left: -4%;
 }
 
 @media (min-width: 768px) {
@@ -381,7 +391,7 @@ li {
     position: absolute;
     display: flex;
     flex-direction: column;
-    left:0.1rem;
+    left: 0.1rem;
 }
 
 @media (min-width: 780px) {
@@ -393,12 +403,12 @@ li {
 
 .cover-text-top {
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
 @media (min-width: 780px) {
     .cover-text-top {
-        gap:1.5rem
+        gap: 1.5rem
     }
 }
 
@@ -420,14 +430,14 @@ li {
     align-items: center;
     line-height: 1;
     padding-top: 4rem;
-    padding-right:0.5rem;
-    row-gap:0.5rem;
+    padding-right: 0.5rem;
+    row-gap: 0.5rem;
 }
 
 @media (min-width: 780px) {
     .cover-text-center {
         padding-top: 4.1rem;
-        row-gap:1.3rem;
+        row-gap: 1.3rem;
     }
 }
 
@@ -438,7 +448,7 @@ li {
 @media (min-width: 780px) {
     .cover-text-center1 {
         font-size: 1.25rem;
-        padding-right:0.4rem;
+        padding-right: 0.4rem;
     }
 }
 
@@ -508,11 +518,12 @@ li {
         flex-direction: row;
         padding-left: 0.7rem;
         gap: 1.8rem;
-        top:36.3%;
-        left:20.7%;
-        position:absolute;
+        top: 36.3%;
+        left: 20.7%;
+        position: absolute;
     }
 }
+
 /* 選ばれる３つの理由 */
 
 .select-title {
@@ -537,11 +548,11 @@ li {
     font-size: 1.5rem;
     font-weight: bold;
     font-style: italic;
-    line-height:1.6;
+    line-height: 1.6;
 }
 
 .select-point-color {
-    padding-left:0.1rem;
+    padding-left: 0.1rem;
     font-size: 2.25rem;
 }
 
@@ -562,21 +573,21 @@ li {
 
 .select-text1.text2-1 {
     line-height: 1.34;
-    padding-bottom:0.7rem;
+    padding-bottom: 0.7rem;
 }
 
 .select-pointpart.part2 {
-line-height:1.57;
+    line-height: 1.57;
 }
 
 .select-pointpart.part3 {
-line-height:1.56;
+    line-height: 1.56;
 }
 
 
 .select-text1.text3-1 {
     line-height: 1.34;
-    padding-bottom:0.7rem;
+    padding-bottom: 0.7rem;
 }
 
 .select-text2.text3-2 {
@@ -586,17 +597,9 @@ line-height:1.56;
 /* コース・目的 */
 
 .container.course-container {
-    padding-inline:0;
+    padding-inline: 0;
 }
 
-.section-title {
-    font-size: 1.75rem;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 4rem;
-    padding-left: 0.1rem;
-    padding-bottom: 1.25rem;
-}
 
 
 /* smarttab */
@@ -610,14 +613,14 @@ line-height:1.56;
 .tab.st>.nav {
     column-gap: 0.9rem;
     display: flex;
-    padding-left:1rem;
-    padding-right:1.9rem;
+    padding-left: 1rem;
+    padding-right: 1.9rem;
     flex-direction: row !important;
 }
 
 @media (min-width:768px) {
     .tab.st>.nav {
-    /* column-gap: 1.5rem; */
+        /* column-gap: 1.5rem; */
     }
 }
 
@@ -626,32 +629,32 @@ line-height:1.56;
 }
 
 .tab.st-theme-basic>.nav .nav-link {
-  padding-top: 1.4rem;
-  padding-bottom: 1rem;
-  margin-bottom: 0.5rem;
-  /* line-height: 1; */
-  background-color: #F0F0F0;
-  color: #929292;
-  font-size: 1.125rem;
-  font-weight: bold;
-  border-radius: 0.5rem 0.5rem 0 0;
+    padding-top: 1.4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    /* line-height: 1; */
+    background-color: #F0F0F0;
+    color: #929292;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 @media (min-width :768px) {
-  .tab.st-theme-basic>.nav .nav-link {
-    /* padding-top: 1.5rem; */
-    /* font-size: 1.625rem; */
-    /* margin-top: 0.05rem; */
-    /* margin-bottom: 0.7rem; */
-    /* padding-bottom: 1.15rem; */
-  }
+    .tab.st-theme-basic>.nav .nav-link {
+        /* padding-top: 1.5rem; */
+        /* font-size: 1.625rem; */
+        /* margin-top: 0.05rem; */
+        /* margin-bottom: 0.7rem; */
+        /* padding-bottom: 1.15rem; */
+    }
 }
 
 /* アクティブ状態 */
 
 .tab.st-theme-basic>.nav .nav-link.active {
     color: #333 !important;
-  background-color: #F2F9FF;
+    background-color: #F2F9FF;
 }
 
 .tab.st-theme-basic>.nav .nav-link.active::after {
@@ -662,42 +665,42 @@ line-height:1.56;
 /* タブコンテンツ */
 
 .tab-content {
-  /* text-align: center; */
-  width: 100%;
-  background-color: #F2F9FF;
+    /* text-align: center; */
+    width: 100%;
+    background-color: #F2F9FF;
 }
 
 @media (min-width: 768px) {
-  .tab-content {
-    /* padding-top: 0.6rem; */
-    /* padding-inline: 0.5rem; */
-    /* height:24.2rem !important; */
-  }
+    .tab-content {
+        /* padding-top: 0.6rem; */
+        /* padding-inline: 0.5rem; */
+        /* height:24.2rem !important; */
+    }
 }
 
 .course-tab {
-  /* padding: 0.5rem 1.5rem 0.1rem 1.5rem; */
+    /* padding: 0.5rem 1.5rem 0.1rem 1.5rem; */
 }
 
 @media (min-width :768px) {
-  .course-tab {
-    /* display: flex; */
-    /* column-gap: 1.6rem; */
-    /* margin-bottom: 0.55rem; */
-  }
+    .course-tab {
+        /* display: flex; */
+        /* column-gap: 1.6rem; */
+        /* margin-bottom: 0.55rem; */
+    }
 }
 
 .course-tab-item {
-  /* padding: 0.5rem 1.5rem 0.1rem 1.5rem; */
+    /* padding: 0.5rem 1.5rem 0.1rem 1.5rem; */
 
 }
 
 @media (min-width :768px) {
-  .course-tab-item {
-    /* display: flex; */
-    /* column-gap: 1.6rem; */
-    /* margin-bottom: 0.55rem; */
-  }
+    .course-tab-item {
+        /* display: flex; */
+        /* column-gap: 1.6rem; */
+        /* margin-bottom: 0.55rem; */
+    }
 }
 
 .course-tab-item img {
@@ -715,57 +718,328 @@ line-height:1.56;
 
 
 @media (min-width: 768px) {
-  .course-title {
-    /* width: calc((100% - 3.3rem) / 2); */
-  }
+    .course-title {
+        /* width: calc((100% - 3.3rem) / 2); */
+    }
 }
 
 .arrow-icon {
-  font-size: 1.8rem;
-  color: #005BAC;
+    font-size: 1.8rem;
+    color: #005BAC;
 }
 
 .course-title-text {
-  /* padding-top: 0.3rem; */
-  font-size: 1.25rem;
-  /* line-height: 1.25; */
-  display: flex;
-  flex-direction: column;
+    /* padding-top: 0.3rem; */
+    font-size: 1.25rem;
+    /* line-height: 1.25; */
+    display: flex;
+    flex-direction: column;
 }
 
 
 
 @media (min-width: 768px) {
-  .course-title-text {
-    /* padding-top: 0.65rem; */
-    /* padding-left: 0.11rem; */
-    /* font-size: 1.5rem; */
-    /* line-height: 1; */
-  }
+    .course-title-text {
+        /* padding-top: 0.65rem; */
+        /* padding-left: 0.11rem; */
+        /* font-size: 1.5rem; */
+        /* line-height: 1; */
+    }
 }
 
 .tab.st-theme-basic>.tab-content>.tab-pane {
-  display: flex;
-  align-items: center;
-  padding: 1.45rem 1rem 0 0;}
+    display: flex;
+    align-items: center;
+    padding: 1.45rem 1rem 0 0;
+}
 
 @media (min-width: 768px) {
-  .tab.st-theme-basic>.tab-content>.tab-pane {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* column-gap: 2rem; */
-  }
+    .tab.st-theme-basic>.tab-content>.tab-pane {
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* column-gap: 2rem; */
+    }
 }
 
 
 .course-tab-item.item2 {
-    margin-top: 1.45rem;
+    margin-top: 1.3rem;
 }
 
 .course-tab-item.item3 {
-    margin-top: 1.45rem;
+    margin-top: 1.4rem;
 }
 
 .course-tab-item.item4 {
-    margin-top: 1.45rem;
+    margin-top: 1.5rem;
+}
+
+
+/* コース・目的セクション下部ボタン */
+
+.course-bottom {
+    margin-top: 7rem;
+}
+
+
+/* 費用 */
+
+
+
+.plan .container {
+    /* padding-right: 2rem; */
+}
+
+@media (min-width: 780px) {
+    .plan .container {
+        /* padding-inline: 10rem; */
+    }
+
+}
+
+.plan .section-title {
+    letter-spacing: 0.2em;
+    padding-left:0.3rem;
+
+}
+
+@media (min-width: 780px) {
+    .plan .section-title {
+        /* letter-spacing: 0.015em; */
+        /* padding-top: 1.85rem; */
+        /* padding-left: 0.1rem; */
+        /* padding-bottom: 0.7rem; */
+        /* font-size: 2.2rem; */
+    }
+}
+
+
+
+@media (min-width: 780px) {
+    .table-style {
+        /* padding-left: 0.2rem; */
+        /* padding-right: 0.2rem; */
+    }
+}
+
+table {
+    table-layout: fixed;
+    width: 96%;
+    border: 3px solid #ccc;
+    border-collapse: collapse;
+}
+
+table th:first-child {
+    width: 34%;
+}
+
+table th:last-child {
+    width: 66%;
+}
+
+
+th {
+    border: 1px solid #ccc;
+}
+
+td {
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th, td {
+    vertical-align: middle;
+}
+
+.plan-head {
+    background-color: #f5f5f5;
+}
+
+@media (min-width :780px) {
+    .plan-head {
+        
+        /* font-size: 1.125rem; */
+    }
+}
+
+.plan-head1 {
+    border-right: none;
+    font-weight: normal;
+    padding: 1.23rem 0.55rem 1.3rem 0.55rem;
+}
+
+@media (min-width :780px) {
+    .plan-head1 {
+        /* padding: 0.4rem 1.9rem 0.5rem 1.76rem; */
+    }
+}
+
+.plan-head2 {
+    border-left: none;
+    font-weight: normal;
+    padding: 1.23rem 0.9rem 1.3rem 0;
+}
+
+@media (min-width :780px) {
+    .plan-head2 {
+        /* padding-right: 0.25rem; */
+        /* padding-bottom: 0.1rem; */
+    }
+}
+
+@media (min-width :780px) {
+    .plan-course {
+        /* padding: 0; */
+        /* padding-right: 0.1rem; */
+        /* padding-bottom: 0.1rem; */
+        /* font-size: 1.125rem; */
+    }
+}
+
+@media (min-width :780px) {
+    .plan-course.course2 {
+        /* padding-right: 0.1rem; */
+        /* font-size: 1.125rem; */
+    }
+}
+
+@media (min-width :780px) {
+    .plan-course.course3 {
+        /* padding-top: 0.15rem; */
+        /* padding-right: 0.1rem; */
+        /* font-size: 1.125rem; */
+    }
+}
+
+.plan-course.course6 {
+    padding-top: 0.4rem;
+}
+
+.plan-text {
+    padding-top: 0.6rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.7rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+@media (min-width :780px) {
+    .plan-text {
+        /* font-size: 1rem; */
+        /* padding-top: 0.55rem; */
+        /* padding-right: 0.2rem; */
+    }
+}
+
+@media (min-width :780px) {
+    .plan-text.text2 {
+        /* padding-top: 0.5rem; */
+        /* padding-right: 0.25rem; */
+    }
+}
+
+
+
+@media (min-width :780px) {
+    .plan-text.text3 {
+        /* padding-top: 0.5rem; */
+        /* padding-right: 0.25rem; */
+    }
+}
+
+
+.plan-text.text5 {
+    padding-right:0.9rem;
+    padding-bottom:0.6rem;
+    letter-spacing: 0.009em;
+}
+
+.plan-text.text6 {
+    padding-bottom:0.5rem;
+}
+
+.plan-text-fee {
+    font-size: 1rem;
+}
+
+@media (min-width :780px) {
+    .plan-fee {
+        /* padding-top: 0.6rem; */
+        /* padding-left: 0.05rem; */
+    }
+}
+
+
+.plan-fee.fee1 {
+    /* padding-bottom: 0.75rem; */
+}
+
+@media (min-width :780px) {
+    .plan-fee.fee1 {
+        /* padding-top: 0.5rem; */
+        /* padding-right: 0.3rem; */
+        /* padding-bottom: 1rem; */
+    }
+}
+
+@media (min-width :780px) {
+    .plan-fee.fee2 {
+        /* padding-right: 0.15rem; */
+        /* padding-bottom: 1.05rem; */
+    }
+}
+
+@media (min-width :780px) {
+    .plan-fee.fee3 {
+        /* padding-top: 0.5rem; */
+        /* padding-right: 0.2rem; */
+        /* padding-bottom: 0.8rem; */
+    }
+}
+
+.section-bottom.plan-bottom {
+    margin-top: 4rem;
+}
+
+/* footer */
+
+.footer-image {
+    position: relative;
+    padding-right: 1rem;
+}
+
+.footer-image img {
+    display: block;
+}
+
+.footer-text1 {
+    top: 20%;
+    left: 4%;
+}
+
+.footer-text2 {
+    top: 70%;
+    left: 4%;
+}
+
+.footer-text1, .footer-text2 {
+    white-space: nowrap;
+    position: absolute;
+}
+
+.footer-text-first, .footer-text-second {
+    color: #fff;
+    font-size: 1.375rem;
+}
+
+.fotter-copyright {
+    background-color: #ddd;
+}   
+
+.copyright {
+    font-size: 0.8125rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
 }
