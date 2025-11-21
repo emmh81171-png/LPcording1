@@ -401,6 +401,15 @@ li {
 
 
 /* mainvisual */
+.cover {
+  position: relative;
+}
+@media (min-width: 768px) {
+    .cover {
+        max-width: 100%;
+    }
+}
+
 
 .cover-item img {
     width: 100%;
@@ -424,7 +433,7 @@ li {
 
 @media (min-width: 780px) {
     .cover-text {
-        top: 4.18%;
+        top: 14.2%;
         left: 18.8%;
     }
 }
@@ -559,7 +568,7 @@ li {
         flex-direction: row;
         padding-left: 0.7rem;
         gap: 2.55rem;
-        top: 27%;
+        top: 92%;
         left: 20.7%;
         position: absolute;
     }
