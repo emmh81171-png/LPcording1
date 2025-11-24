@@ -965,11 +965,12 @@ li {
         /* display: flex; */
         /* column-gap: 1.6rem; */
         /* margin-bottom: 0.55rem; */
+        overflow: hidden;
     }
 }
 
 @media (min-width :780px) {
-    .course-tab-item:hover {
+    .course-tab-item:hover img {
         transform: scale(1.2);
     }
 }
@@ -977,6 +978,12 @@ li {
 .course-tab-item img {
     padding-left: 1rem;
     width: 100%;
+}
+
+@media (min-width :780px) {
+    .course-tab-item img {
+        /* transition: transform 0.3s ease; */
+    }
 }
 
 .course-title {
@@ -1361,11 +1368,24 @@ td {
 @media (min-width: 780px) {
     .footer-image {
         display: flex;
+        overflow: hidden;
     }
 }
 
 .footer-image img {
     display: block;
+}
+
+@media (min-width: 780px) {
+    .footer-image .img1:hover img {
+        transform: scale(1.2);
+    }
+}
+
+@media (min-width: 780px) {
+    .footer-image .img2:hover img {
+        transform: scale(1.2);
+    }
 }
 
 .footer-text1 {
