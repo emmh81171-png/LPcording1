@@ -94,7 +94,8 @@ li {
         height: 3.8125rem;
         background: linear-gradient(to right, #0271E0, #53A2F0);
         border-radius: 1.9375rem;
-        margin-left:1.7rem;
+        margin-inline:0;
+        margin-left:-0.3vw;
     }
 }
 
@@ -229,6 +230,14 @@ li {
     }
 }
 
+@media (min-width: 980px) {
+    .header-inner {
+        padding:0 1rem;
+        display:flex;
+        column-gap:8.3vw;
+    }
+}
+
 /* header-logo */
 
 .header-logo {
@@ -239,18 +248,9 @@ li {
 }
 
 @media (min-width: 980px) {
-    .header-inner {
-        padding:0 1rem;
-        display:flex;
-        column-gap:6vw;
-    }
-}
-
-
-@media (min-width: 980px) {
     .header-logo {
-        padding-top:2.2rem;
-        padding-left:0.15rem;
+        padding-top:2.25rem;
+        padding-left:0.15%;
     }
 }
 
@@ -304,7 +304,6 @@ li {
 @media (min-width: 980px) {
     .hamburger-menu {
         position: static;
-        width: auto;
         transform: none;
         transition: none;
         opacity: 1;
@@ -347,7 +346,8 @@ li {
         display: flex;
         align-items: center;
         flex-direction: row;
-        column-gap: 1.1rem;
+        column-gap: 2.5vw;
+        padding-left:0;
     }
 }
 
@@ -360,6 +360,7 @@ li {
     .hamburger-nav-first li {
         border-bottom: none;
         width: auto;
+        line-height:0;
     }
 }
 
@@ -999,9 +1000,7 @@ li {
 
 @media (min-width: 780px) {
     .arrow-icon {
-        line-height: 1.43;
-        font-size: 2.05rem;
-        padding-top: .05rem;
+        display:none;
     }
 }
 
