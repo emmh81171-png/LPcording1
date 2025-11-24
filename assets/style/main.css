@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 780px) {
     a:hover {
         opacity: .5;
     }
@@ -227,14 +227,16 @@ li {
         height: 6.3rem;
         display:flex;
         justify-content:center;
+
     }
 }
 
 @media (min-width: 980px) {
     .header-inner {
         padding:0 1rem;
+        gap:8.3vw;
         display:flex;
-        column-gap:8.3vw;
+        justify-content:space-between
     }
 }
 
@@ -428,7 +430,7 @@ li {
     padding-top:4.35rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 780px) {
     .cover {
         max-width: 100%;
         background-color: #fff;
@@ -445,16 +447,19 @@ li {
 
 .cover-item img {
     position:absolute;
-    width: 100%;
+    width:100%;
     object-fit:cover;
-    min-height:0%;
+    min-height:100%;
+    max-height:100%;
     /* margin-top: 4.4rem; */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 780px) {
     .cover-item img {
         position:absolute;
+        object-fit:cover;
         min-height:79%;
+        max-height:90%;
         /* margin-top: 6.2rem; */
     }
 }
@@ -479,7 +484,8 @@ li {
 }
 
 .cover-text-top {
-    margin-top:2.1rem;
+    margin-top:2rem;
+    margin-bottom:0.1rem;
 }
 
 @media (min-width: 780px) {
@@ -592,18 +598,25 @@ li {
     }
 }
 
+.button-flex {
+    display:flex;
+    justify-content:center;
+        transform: translateY(35%);
+
+}
+
 @media(min-width:780px) {
     .button-flex {
         display: flex;
         justify-content: center;
+        transform: translateY(30%);
+
     }
 }
 
-.cover-text-button {
+ .cover-text-button {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 3.7rem;
     gap: .75rem;
 }
 
@@ -612,16 +625,22 @@ li {
         max-width: 100%;
         flex-direction: row;
         gap: 2.5rem;
-        padding-top:5.4%;
+        padding-top:2.6%;
+        padding-bottom:2.8%;
         position: relative;
     }
 }
 
 /* 選ばれる３つの理由 */
 
+    .select .container {
+    padding-top: 1.8rem;
+    }
+
 
 @media (min-width: 780px) {
     .select .container {
+        padding-top:0;
         padding-inline: 3.7rem;
     }
 }
@@ -630,7 +649,7 @@ li {
     font-size: 1.75rem;
     font-weight: bold;
     text-align: center;
-    padding-top: 1.4rem;
+    padding-top: 3.3rem;
     padding-bottom: .9rem;
 }
 
@@ -861,7 +880,7 @@ li {
     flex-direction: row !important;
 }
 
-@media (min-width:768px) {
+@media (min-width:780px) {
     .tab.st>.nav {
         column-gap: 2.15rem;
         padding-inline: 2.75rem;
@@ -888,7 +907,7 @@ li {
     padding-right: 1rem;
 }
 
-@media (min-width :768px) {
+@media (min-width :780px) {
     .tab.st-theme-basic>.nav .nav-link {
         padding-top: 1.3rem;
         font-size: 1.5rem;
@@ -899,7 +918,7 @@ li {
     }
 }
 
-@media (min-width :768px) {
+@media (min-width :780px) {
     .tab.st-theme-basic>.nav .nav-link.nav-2 {
         padding-top: 1.3rem;
         padding-left: 1rem;
