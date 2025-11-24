@@ -88,14 +88,13 @@ li {
 @media (min-width: 780px) {
     .button-white {
         font-size: 1.25rem;
-        margin-top: .75rem;
-        margin-left: 1.25vw;
         display: flex;
         color: #fff;
         width: 17.625rem;
         height: 3.8125rem;
         background: linear-gradient(to right, #0271E0, #53A2F0);
         border-radius: 1.9375rem;
+        margin-left:1.7rem;
     }
 }
 
@@ -225,6 +224,8 @@ li {
     .header {
         max-width: 100%;
         height: 6.3rem;
+        display:flex;
+        justify-content:center;
     }
 }
 
@@ -238,9 +239,18 @@ li {
 }
 
 @media (min-width: 980px) {
+    .header-inner {
+        padding:0 1rem;
+        display:flex;
+        column-gap:6vw;
+    }
+}
+
+
+@media (min-width: 980px) {
     .header-logo {
-        margin:auto;
-        padding-left:11.6%;
+        padding-top:2.2rem;
+        padding-left:0.15rem;
     }
 }
 
@@ -295,8 +305,6 @@ li {
     .hamburger-menu {
         position: static;
         width: auto;
-        margin:auto;
-        max-width: none;
         transform: none;
         transition: none;
         opacity: 1;
@@ -305,8 +313,6 @@ li {
         flex-direction: row;
         background-color: transparent;
         padding-top:0.4%;
-        padding-left:1%;
-        padding-right:11.6%;
 
     }
 }
@@ -337,8 +343,7 @@ li {
     .hamburger-nav-first {
         width: auto;
         white-space: nowrap;
-        padding-top: .1rem;
-        padding-right: 10%;
+        padding-top: .9rem;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -606,7 +611,7 @@ li {
         max-width: 100%;
         flex-direction: row;
         gap: 2.5rem;
-        padding-top:5.3%;
+        padding-top:5.4%;
         position: relative;
     }
 }
