@@ -236,7 +236,7 @@ li {
         padding:0 1rem;
         gap:8.3vw;
         display:flex;
-        justify-content:space-between
+        justify-content:space-between;
     }
 }
 
