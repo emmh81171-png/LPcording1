@@ -366,7 +366,7 @@ li {
     .hamburger-nav-first li {
         border-bottom: none;
         width: auto;
-        line-height: 0;
+        line-height: 1;
     }
 }
 
@@ -381,9 +381,17 @@ li {
     border-bottom: 1px solid #707070;
 }
 
+@media (min-width: 780px) {
+    .hamburger-nav-first li:nth-child(-n+3)::after {
+        border-bottom: none;
+        content: none;
+    }
+}
+
 @media (min-width: 980px) {
     .hamburger-nav-first li::after {
         border-bottom: none;
+        content: none;
     }
 }
 
