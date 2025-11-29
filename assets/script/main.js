@@ -3,19 +3,19 @@ var hamburger = $('.hamburger-menu');
 
 $('.hamburger-button').on('click', function () {
 
-  hamburger.toggleClass('hamburger-menu-active');
+    hamburger.toggleClass('hamburger-menu-active');
 });
 
-$(window).on('resize', function() {
+$(window).on('resize', function () {
 
-  hamburger.removeClass('hamburger-menu-active');
+    hamburger.removeClass('hamburger-menu-active');
 });
 
 
 // smarttab
 $('#smarttab').smartTab({
-  enableUrlHash: false,
-  autoAdjustHeight: false
+    enableUrlHash: false,
+    autoAdjustHeight: false
 });
 
 

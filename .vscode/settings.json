@@ -1,3 +1,15 @@
 {
-  "liveServer.settings.port": 5501
+  // Live Server
+  "liveServer.settings.port": 5501,
+
+  // 共通設定
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,   // ← 自動推測を切る
+
+  // JavaScript 用フォーマッタ
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
