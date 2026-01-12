@@ -208,6 +208,41 @@ li {
     }
 }
 
+.section-bottom-button {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .section-bottom-button {
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+
+.section-bottom-button a {
+    display: flex;
+}
+
+
+.button-free {
+    width: 19.0625rem;
+    height: 4.3rem;
+    font-size: 1.25rem;
+    border-radius: 2.3rem;
+    background-color: #F6AA00;
+}
+
+@media (min-width: 768px) {
+    .button-free {
+        padding-left: 1.4rem;
+        font-size: 1.5rem;
+        width: 22.5rem;
+        height: 4.6875rem;
+    }
+}
+
 /* header */
 
 .header {

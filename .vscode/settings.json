@@ -1,6 +1,6 @@
 {
   // Live Server
-  "liveServer.settings.port": 5501,
+  "liveServer.settings.port": 5502,
 
   // 共通設定
   "editor.formatOnSave": true,

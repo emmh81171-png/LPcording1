@@ -17,5 +17,3 @@ $('#smarttab').smartTab({
     enableUrlHash: false,
     autoAdjustHeight: false
 });
-
-
